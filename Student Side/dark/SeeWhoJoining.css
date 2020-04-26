@@ -1,0 +1,166 @@
+*
+{
+    box-sizing: border-box ;
+}
+
+img 
+{
+    width : 100px ;
+    height: auto ;
+    padding-top: 12px;
+    float: left;
+    padding-left: 7% ;
+    border-radius: 50%; 
+    margin-left: 2%;
+}
+body
+{
+    font-family: Arial, Helvetics, sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 0.6px;
+    color: #878787;
+    font-size: 16px;
+    background-color: rgb(236, 235, 235);
+}
+
+h3
+{
+    padding-top: 4% ;
+    font-family: "Roboto Slab","Times New Roman",serif; 
+    margin-bottom: 1%;
+    font-weight: bolder;
+    text-align: center  ;
+    color: #010101 ;
+}
+.column
+{
+    width: 25% ;
+    float: left ;
+    padding: 15px 10px ;
+}
+
+.row {
+    margin-right: -300px;
+    margin-left: 80px;
+}
+
+.row::after
+{
+    content : "" ;
+    display: table ;
+    clear: table ;
+}
+
+@media screen and (max-width:600px)
+{
+    .column
+    {
+        width: 100% ;
+        display: block ;
+        margin-bottom: 20px ;
+    }
+}
+
+.card
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2) ;
+    max-width: 303500px ;
+    margin: auto 2% auto 2% ;
+    background-color: #f0f0f0 ;
+    text-align: center ;
+    border-radius: 40px ;
+    padding-bottom: 15px ;
+}
+
+.title
+{
+    margin-top: 0cm ;
+    color: #010101 ;
+    font-size: 12px ;
+    padding-left: 5px ;
+    margin-bottom: 0px;
+    font-family: 'Noto Serif', serif;
+}
+
+button{
+    border: none ;
+    padding: 6px ;
+    display: inline-block ;
+    color: white ;
+    background-color: #010101 ; 
+    cursor: pointer ;
+    width: 60% ;
+    border-radius: 20px ;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Roboto Slab","Times New Roman",serif;
+}
+
+a
+{
+    text-decoration: none ;
+    font-size: 22px ;
+    color: black ;
+}
+
+a:hover, button:hover
+{
+    opacity: 90%     ;
+}
+
+.location
+{
+    margin-top: .2% ;
+    font-family: 'Noto Serif', serif;
+    font-size: 10px ;
+    margin-bottom: .2% ;
+    color: #212121 ;
+}
+
+.main
+{
+    background: #FFF;
+    position: relative ;
+    z-index: 3 ; 
+}
+
+.main-raised
+{
+    margin: 60px 30px 0 ;
+    border-radius: 6px ;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),
+                0 6px 30px 5px rgba(0,0,0,.12),
+                0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+body
+{
+    word-spacing: 2px ;
+    letter-spacing: 0.6px ;
+    background-color: #3c4452 ;
+    font-size: 16px ;
+}
+
+.block
+{
+    display: block ;
+}
+
+@media (max-width: 20%){
+    .table tr th, .table tr td{
+      width: 50%;
+    }
+    .on-small thead{
+      display: none;
+    }
+  }
+
+  #wrapper {
+    display: block; margin: 0 auto;
+    width: 25%;
+    padding: 1% ;
+    margin-top: 2% ;
+    margin-bottom: 2% ;
+  }
+
+  
