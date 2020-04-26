@@ -1,4 +1,5 @@
 # eduSpace
+A unique classroom platform with an emphasis on community and peer to peer collaboration.
 
 ## Inspiration: 
 Students in the classroom are not able to connect with professors as before, or sometimes they are hesitant to reach out. So we created a full featured platform to combine time-tracking, communication, collaboration, planner and analyzing tools all in one place so students and professors do not need to spend extra time or money for other platforms.
