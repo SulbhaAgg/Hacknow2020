@@ -1,3 +1,5 @@
+**This is the public repo, the repo with database and API is private, could be viewed upon request**
+
 ![](images/logo.png)
 
 A unique classroom platform with an emphasis on community and peer to peer collaboration.
